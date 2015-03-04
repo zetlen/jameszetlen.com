@@ -35,4 +35,7 @@ html
 
 footer.
   All rights barely understood. &copy; 2015 James Zetlen.
-script(src="/scripts/all.js")
+if environment === "production"
+  script(src="/scripts/all.min.js")
+else
+  script(src="/scripts/all.js")
