@@ -1,0 +1,29 @@
+
+body{
+  font-family: "Cabin", sans-serif;
+  font-size: 18pt;
+  padding: 0;
+  margin: 0;
+  background: @light;
+  color: @dark;
+  margin: 0;
+}
+
+a {
+  &, a:visited {
+    color: @medium;
+    text-decoration: none;
+  }
+  &:hover {
+    color: @highlight;
+  }
+}
+
+h1 {
+  color: @highlight;
+  text-transform: uppercase;
+  font-weight: normal;
+  a {
+    color: @highlight;
+  }
+}

@@ -1,0 +1,36 @@
+.suspects {
+  h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid @highlight;
+  } 
+
+  .usual-suspects {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  } 
+
+  .suspect {
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid desaturate(lighten(@highlight, 30%), 20%);
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .suspect-header {
+    overflow: auto;
+    h3, h4 {
+      float: left;
+      clear: left;
+      margin: 0 0 20px 0;
+    }
+    a.thumb {
+      float: right;
+    }
+  } 
+
+}

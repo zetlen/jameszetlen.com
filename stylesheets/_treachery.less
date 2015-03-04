@@ -1,0 +1,28 @@
+.treachery {
+  text-align: center;
+  li {
+    display: inline-block;
+  }
+  a {
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    span {
+      position: absolute;
+      visibility: hidden;
+    }
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  &.smaller a {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    transform: translate(-70px, -40px) scale(0.5,0.5);
+  }
+}
