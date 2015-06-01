@@ -1,0 +1,16 @@
+{
+  "name": "jameszetlen-dot-com",
+  "version": "1.0.0",
+  "description": "james zetlen's personal website, my friends",
+  "author": "james zetlen",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "harp": "^0.17.0"
+  }
+}
