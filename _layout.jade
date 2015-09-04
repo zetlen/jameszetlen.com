@@ -7,13 +7,13 @@ html
     meta(name="description" content=description)
   body
   .wrapper
-    header
+    header(class="#{ current.path[0] != 'index' ? 'smaller' : '' }")
       div.exupery 
         canvas(id="blivet" width=400 height=240)
         h1 
           a(href="/") James Zetlen
       section.statement= description
-      nav(class="treachery #{ current.path[0] !== 'index' ? 'smaller' : '' }")
+      nav(class="treachery")
         ul
           li
             a.about(href="/about")
