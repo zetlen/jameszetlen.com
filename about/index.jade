@@ -9,6 +9,7 @@ ul
 p I'm working as a software architect at Volusion, which is both challenging and exciting. 
 :markdown
   I devote a lot of time to the rapidly-growing community of Mozu users, so I'm not really available for freelance work. I do offer pithy advice via [email](mailto:zetlen@gmail.com) and [GitHub](https://github.com/zetlen).
+
 section.suspects
   h2 Employers
   ul.usual-suspects
@@ -19,18 +20,30 @@ section.suspects
         h3
           a(href="http://mozu.com") Mozu
         h4 2012-2015
-      :markdown
-        Mozu is the next-generation eCommerce platform from Volusion, built on microservices and modern Web technologies. I was the first engineer on the Mozu project; I collaborated on a lot of initial, fundamental technology choices. I ended up the architect in charge of the theme engine and frontend developer experience. In this capacity I:
-         - developed large portions of the adminstrative app
-         - designed the **Hypr Live** template system, which allows reuse of the same templates on the server and the client
-         - created the Mozu Core Theme, a "starting point" theme which inlined best practices, instructional code, and several single-page shopping apps into one extensible package
-         - made build tools and a package ecosystem for theme developers
-         - wrote two SDKs--one for browsers and one for NodeJS--to integrate with the Mozu layer of RESTful web services.
+      p Mozu is the next-generation eCommerce platform from Volusion, built on microservices and modern Web technologies. I was the first engineer on the Mozu project; I collaborated on a lot of initial, fundamental technology choices. I ended up the architect in charge of the theme engine and frontend developer experience. In this capacity I:
+      ul
+        li developed large portions of the adminstrative app
+        li designed the #[strong Hypr Live] template system, which allows reuse of the same templates on the server and the client
+        li created the Mozu Core Theme, a "starting point" theme which inlined best practices, instructional code, and several single-page shopping apps into one extensible package
+        li made build tools and a package ecosystem for theme developers
+        li wrote two SDKs--one for browsers and one for NodeJS--to integrate with the Mozu layer of RESTful web services.
+        li core developer for the Arc.js JavaScript-based open actions framework, designing APIs and writing scaffolding and sync tools in Node
+      p The Mozu Core Theme is still my most publicly prominent contribution. The Core theme is an inheritable starting point for Mozu sites, and because of its versatility and the conventions we established around it, it is the HTML, CSS, and JavaScript code base from which all of these public Mozu clients have built their sites:
+      ul.mozu-sites
+         li #[a(href="http://www.goruck.com") #[img(src="goruck-logo-lg.png" alt="GORUCK" title="GORUCK")]]
+         li #[a(href="http://jellybelly.com") #[img(src="Jelly_Belly_logo.png" alt="Jelly Belly" title="Jelly Belly")]]
+         li #[a(href="http://www.sigmabeauty.com") #[img(src="sigma-beauty-logo.png" alt="Sigma Beauty" title="Sigma Beauty")]]
+         li #[a(href="http://www.factoryotc.com") #[img(src="factoryotc-logo.png" alt="FactoryOTC" title="FactoryOTC")]]
+         li #[a(href="http://www.gouletpens.com") #[img(src="goulet-pens-logo.png" alt="Goulet Pens" title="Goulet Pens")]]
+         li #[a(href="http://shop.danijohnson.com/") #[img(src="danijohnson-logo.png" alt="Dani Johnson" title="Dani Johnson")]]
+         li #[a(href="http://seismicaudiospeakers.com/") #[img(src="seismic-logo-165.png" alt="Seismic Audio" title="Seismic Audio")]]
+
+       p Mozu themes are infinitely customizable and I cannot take credit for the visual identities of any of these sites; my specialty was the framework code, that powers the dynamic shopping and ordering interactions. All of these sites, and more, run on my basic commerce frontend system.
     
     li.suspect
       .suspect-header
         a.thumb(href="http://volusion.com")
-          img(src="v13.png")
+          img(src="logo-volusion.png")
         h3
           a(href="http://volusion.com") Volusion
         h4 2011-2012
@@ -45,7 +58,7 @@ section.suspects
     li.suspect
       .suspect-header
         a.thumb(href="http:convio.com")
-          img(src="convio.png")
+          img(src="convio.jpg")
         h3
           a(href="http://convio.com") Convio
         h4 2007-2010
@@ -62,13 +75,13 @@ section.suspects
   ul.usual-suspects
     li.suspect
       h3
-        a(href="https://github.com/zetlen/require-shim") require-shim
-      p A dynamic AMD shimming plugin for RequireJS, written before the builtin config-based shim was compatible with the r.js compiler. It allowed you to describe the shim--requirements, arguments, and exports--at runtime, and build the shim into compiled assets.
-    li.suspect
-      h3
         a(href="https://github.com/zetlen/fenestrate") fenestrate
       :markdown
         A Node utility for Windows users, who are plagued with a [strong disagreement between the NPM package resolution strategy and the Windows userland utilities.](https://github.com/joyent/node/issues/6960) It's basically a superpowered `npm dedupe`; it aggressively flattens the package hierarchy in an attempt to give you more headroom on Windows.
+    li.suspect
+      h3
+        a(href="https://github.com/zetlen/require-shim") require-shim
+      p A dynamic AMD shimming plugin for RequireJS, written before the builtin config-based shim was compatible with the r.js compiler. It allowed you to describe the shim--requirements, arguments, and exports--at runtime, and build the shim into compiled assets.
     li.suspect
       h3
         a(href="http://zetlen.github.io/vpkr/") vpkr
@@ -83,6 +96,11 @@ section.suspects
 section.suspects
   h2 Unrelated Projects
   ul.usual-suspects
+    li.suspect
+      h3
+        a(href="http://github.com/zetlen/samoan-garden") samoan garden
+      p.
+        A Node utility for generating anagrams of phrases, as the name should make obvious.
     li.suspect
       h3
         a(href="http://jameszetlen.com/synesthesia") synesthesia
