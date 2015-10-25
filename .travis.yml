@@ -9,3 +9,5 @@ after_success: ./deploy.sh
 before_install:
 - openssl aes-256-cbc -K $encrypted_f4b5bb51facd_key -iv $encrypted_f4b5bb51facd_iv
   -in id_dsa.enc -out id_dsa -d
+addons:
+  ssh_known_hosts: jameszetlen.com
