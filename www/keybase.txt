@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/zetlen
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jameszetlen.com
+  * I am zetlen (https://keybase.io/zetlen) on keybase.
+  * I have a public key with fingerprint DD1D 8801 710F 581A 63F6  C40B 3D82 F00E 8A3A 88B1
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.10"
+        },
+        "key": {
+            "eldest_kid": "0101eb0996375372c252bf5bde39a13463103a050f98eb7f666215ed77f742fc47b80a",
+            "fingerprint": "dd1d8801710f581a63f6c40b3d82f00e8a3a88b1",
+            "host": "keybase.io",
+            "key_id": "3d82f00e8a3a88b1",
+            "kid": "0101eb0996375372c252bf5bde39a13463103a050f98eb7f666215ed77f742fc47b80a",
+            "uid": "28c44770a71f3b013b3e82c53122e519",
+            "username": "zetlen"
+        },
+        "service": {
+            "hostname": "jameszetlen.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1437319338,
+    "expire_in": 157680000,
+    "prev": "8df2a7fbb0515393150e424aa3bec0798d3d6a58d86eb008ca93b172be5a9701",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owGtkm1MFEccxg+Ui/KmFVuNQqSLljbBY3ZnX88iEAKB1tADS0Ml9NyX2WO54/a8
+O5CDYhtSC5piSMUGaBWrxlCUAkVRakMxtb6UpBiQBjB6qDSiNQ0qSk1jr7tAPzTp
+x86Xmcz/93/mmWemPmKRITQoqXo6cq+5tito4J5gyDvR31aJCarkw8yVmOhQkNOr
+r5x8CcLMmB35BN6DTIoa61QlZCr2xC4wCVgZcnsU1alRwMSacIBVJei83o0cEvJ4
+rXZF0qs4wJEAOI6GDAUZQiQoQpApQUKQ43FI0hAHkAcUkDkWCYxM0zSBU0hiGJkh
+CVkkGYEFvHagrDhtyO1yK7pFTJJwiWUBzuBAplicp6FMiyQQoMQSMgCI5SHPsgKu
+NRapHu+/LoPNObXO2fsP/n/2XTonR7AiSTIM4BlchgLAoQARS4gUxAkCUTingx7k
+Xgi+AnkdyKlHqu2VKSLSY9XvsVAv1ibPPGQS1RKt2eVWvaqoOrRikdfrMuu9Xp9L
+h3ciwbogYxUUp6TlOP9+jfMPiGuo6FV0YZyEDMQ5CNkEDJW7FDeyKjpBMTQLtKGf
+g8o0TVaSCZ6RBQFQOAU5iFMAkQTJ81BAImA4VoISzVOsxNJaiIAVeQ4KOEMIiOI5
+Bugxe9AOp4qZoeaTt2mSHsXm5L2lboRV7QmOXmwICjUYQ4L1H2oIXbr8n29754Vl
+gVT3NP088cckG3kvuYTz338Q1TjcOZwb4MbbqdTHp95WJs6lW++v/6JpY+rqN6t2
+7Wt+47PpsyF5k08jEltHLtxprsUyKonlRzf0pDbd/rpmbDh+U3BmX3hNQ8XSvtez
+5Buna1ZnmL9xnJ541vu8++jggNBs3z+kBPYFIomtXXJIlN163FWoHLtb9OulOCmi
+p/0GF6iQMB9HD+XVlPDT5dDfeXHFYJdh/+d71l3fduxWwPfqTG1cypnD1nOdVyeT
+LVFpha/ZXD+Ef+TfvGU894zYV92VS9lPJq3ZMChnjyZOrD1krvtgx6O95sS8k9Xq
+mfjO2PKeVudI1VC2evn9iMym3f7wOt/vbV7L1PabvSfaKSP5lmGnYXvIb1mXsS0C
+9TCn2Ogv7767e8WSK6OrXqxNbnlQaFn5Z2Nst6vDHJM+VZzTml/H/BKez89kXacb
+s4xpT2/GnzpwcXFvwagxyrKMYwriF10oTTpi/hjsSnnW2iav6q4LSyR9nxxMa8j3
+lT8KDr29MWzJSx/S37ny5J53110z9g8mx0XfmthsmYRbf3pnk6ll9uCBl4+IttmB
+964G1SfVx0zBn8MDIPqvWUdwTfaVsMfXvvSPNaRUu8arn5hHGtZHzjysyvy05PAf
+SdEFMR3fnt+2pmPl2JOolld6judkrzV+f6i2Pz36UmTXV+ftloyis38D
+=g5XZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zetlen
+
+==================================================================
