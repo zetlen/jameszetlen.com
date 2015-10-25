@@ -4,6 +4,8 @@ node_js:
 before_script:
 - npm install -g harp
 - npm install
+- harp compile
+- ./mash.sh
 - chmod +x ./deploy.sh
 after_success: ./deploy.sh
 before_install:
