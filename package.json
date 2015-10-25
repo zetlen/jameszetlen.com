@@ -5,7 +5,7 @@
   "author": "james zetlen",
   "license": "GPL-3.0",
   "scripts": {
-    "start": "harp server"
+    "test": "harp compile"
   },
   "engines": {
     "node": "0.10.x"
