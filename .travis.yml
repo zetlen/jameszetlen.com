@@ -3,5 +3,5 @@ node_js: ['4.1']
 before_script:
   - npm install -g harp
   - npm install
-  - chmod +x ./scripts/deploy.sh
-after_success: ./scripts/deploy.sh  
+  - chmod +x ./deploy.sh
+# after_success: ./scripts/deploy.sh  
