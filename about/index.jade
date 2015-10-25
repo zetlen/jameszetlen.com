@@ -1,3 +1,4 @@
+!= partial("../_header", { headerSize: "smaller" })
 p
   | I like toolmaking. If you ask me to make a website, I'll probably make a website generator. The fun starts when you ask me to make a website generator.
   | Unlike a lot of other frontend developers, I didn't find my way here through visual design. I'm more of a verbal person, so I'm good at:
@@ -75,6 +76,21 @@ section.suspects
   ul.usual-suspects
     li.suspect
       h3
+        a(href="https://github.com/zetlen/jort") jort
+      :markdown
+        A Node testing helper that creates ephemeral local HTTP servers that deliver a single payload, or a sequence of preconfigured payloads, and then disappear. Built for testing the Mozu Node SDK, jort seemed to be useful enough to document, assign a charismatic name, and release. It seems to be finding some purchase amongst other SDK developers, and other types writing HTTP clients whose URLs come in from configuration.
+    li.suspect
+      h3
+        a(href="http://zetlen.github.io/all-other-things-being-equal") all-other-things-being-equal
+      :markdown
+        An extremely useful Node assertions pack that helps remind you of [some important things about making software that uses networks.](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing) *Classic Zetlen.*
+    li.suspect
+      h3
+        a(href="http://zetlen.github.com/mozu-syndicator") Mozu Syndicator
+      :markdown
+        A proof of concept for an exciting usage of the new Arc.js functionality on the Mozu platform that I helped to create. This script package can be installed on a Mozu tenant, and adds a "syndicator library" that allows you to embed live Mozu content (such as products or search results) into non-Mozu sites, using the Hypr template language right on the page. It uses an asynchronous, copy-and-paste code snippet similar to the widget systems used by Facebook and Twitter.
+    li.suspect
+      h3
         a(href="https://github.com/zetlen/fenestrate") fenestrate
       :markdown
         A Node utility for Windows users, who are plagued with a [strong disagreement between the NPM package resolution strategy and the Windows userland utilities.](https://github.com/joyent/node/issues/6960) It's basically a superpowered `npm dedupe`; it aggressively flattens the package hierarchy in an attempt to give you more headroom on Windows.
@@ -103,12 +119,12 @@ section.suspects
         A Node utility for generating anagrams of phrases, as the name should make obvious.
     li.suspect
       h3
-        a(href="http://jameszetlen.com/synesthesia") synesthesia
+        a(href="http://synesthesia.jameszetlen.com") synesthesia
       p.
         A little toy that displays the color values of words and names whose characters resemble six-character hex codes, like #BADA55 or #FACADE. Now with Wikipedia article titles as well as dictionary words.
     li.suspect
       h3
-        a(href="http://jameszetlen.com/tapes") tapes
+        a(href="http://tapes.jameszetlen.com") tapes
       p.
         A mixtape generator using Yeoman, Assemble, Grunt, and a complex SVG-powered animation that replicates the motion of tape wheels as closely as possible. I'm a musician and constant seeker of new music. This was a labor of love that didn't feel laborious. The directory is full of mixtapes I've made over the years.
     li.suspect
