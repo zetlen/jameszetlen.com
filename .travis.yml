@@ -4,6 +4,7 @@ node_js:
 before_script:
 - npm install -g harp
 - npm install
+- mkdir -p ~/.ssh
 - chmod +x ./deploy.sh
 after_success: ./deploy.sh
 before_install:
