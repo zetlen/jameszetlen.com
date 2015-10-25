@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -av -f"- .git/" --progress www/ zetlen@colonpipe.org:~/jameszetlen.com/
+rsync -e 'ssh -i ./id_dsa' -av -f"- .git/" --progress www/ zetlen@colonpipe.org:~/jameszetlen.com/

@@ -7,7 +7,5 @@ before_script:
 - chmod +x ./deploy.sh
 after_success: ./deploy.sh
 before_install:
-- mkdir -p ~/.ssh
-- touch ~/.ssh/id_dsa
 - openssl aes-256-cbc -K $encrypted_f4b5bb51facd_key -iv $encrypted_f4b5bb51facd_iv
-  -in id_dsa.enc -out ~\/.ssh/id_dsa -d
+  -in id_dsa.enc -out id_dsa -d
