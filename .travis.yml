@@ -2,7 +2,7 @@ language: node_js
 node_js:
 - '4.1'
 before_script:
-- npm install -g harp
+  - npm install -g harp uglify-js
 - npm install
 - harp compile
 - ./mash.sh
