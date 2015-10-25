@@ -7,7 +7,8 @@
   "scripts": {
     "test": "harp compile"
   },
-  "engines": {
-    "node": "0.10.x"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zetlen/jameszetlen.com.git"
   }
 }
